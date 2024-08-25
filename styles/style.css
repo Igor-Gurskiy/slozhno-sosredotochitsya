@@ -15,7 +15,6 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  /* width: 100%; */
   grid-template-rows: 1fr min-content 1fr;
   margin-block-end: 40px;
   padding: var(--indent);
@@ -88,11 +87,12 @@
   border: none;
   font-size: 18px;
   inline-size: 70px;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid currentColor;
+  outline: 1px solid currentColor;
 }
 
 .header__theme-menu-button:focus {
@@ -197,6 +197,7 @@
 .link:hover {
   border-block-end: 1px solid currentColor;
 }
+
 .images-section {
   display: grid;
   gap: 10px;
@@ -230,9 +231,7 @@
 }
 
 @media (width >= 768px) {
-  :root {
-    --indent: 20px;
-  }
+  
   /* HEADER */
 
   .header {

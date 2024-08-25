@@ -10,3 +10,9 @@
   --bg-image: url(../images/cover-image-dark.png);
   --indent: 10px;
 }
+
+@media (width >= 768px) {
+  :root {
+    --indent: 20px;
+  }
+}
