@@ -9,7 +9,6 @@
     --visibility: hidden;
     --main-font: "IBM Plex mono";
     --bg-image: url(../images/cover-image-light.png);
-    --indent: 10px;
   }
 }
 
@@ -23,5 +22,4 @@
   --visibility: hidden;
   --main-font: "IBM Plex mono";
   --bg-image: url(../images/cover-image-light.png);
-  --indent: 10px;
 }
